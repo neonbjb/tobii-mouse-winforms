@@ -166,8 +166,7 @@ namespace TobiiNoMouse
         }
 
         private void gazePointCallback(ref tobii_gaze_point_t gaze_point)
-        {
-            Console.WriteLine("Got gaze point: " + gaze_point.position.x + ", " + gaze_point.position.y);
+        { 
             gazePointEvent.Invoke(this, new GazeEventArgs(gaze_point.position.x, gaze_point.position.y));
         }
 

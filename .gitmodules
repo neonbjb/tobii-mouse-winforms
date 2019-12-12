@@ -1,0 +1,3 @@
+[submodule "karna-magnification"]
+	path = karna-magnification
+	url = https://github.com/neonbjb/karna-magnification.git

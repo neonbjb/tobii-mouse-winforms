@@ -8,20 +8,33 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Threading;
-using Tobii.StreamEngine;
+using Karna.Magnification;
 
 namespace TobiiNoMouse
 {
     public partial class MainForm : Form
     {
+        // Future configuration constants
+        const float MAGNIGIFER_MAGNIFICATION = 2f;
+        Size MAGNIFIER_WINDOW_SIZE = new Size(400, 400);
+
+
         private LowLevelKeyboardHook keyboardHook;
         private TobiiStreamer streamer;
         private bool rctrlDown = false;
         private Dispatcher uiDispatcher;
+        private Form magnifierForm;
+        private Magnifier magnifier;
 
         public MainForm()
         {
             InitializeComponent();
+
+            magnifierForm = new Form();
+            magnifierForm.FormBorderStyle = FormBorderStyle.None;
+            magnifierForm.Visible = false;
+            magnifierForm.Size = MAGNIFIER_WINDOW_SIZE;
+            magnifier = new Magnifier(magnifierForm, MAGNIGIFER_MAGNIFICATION);
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -47,6 +60,8 @@ namespace TobiiNoMouse
                 Rectangle resolution = Screen.PrimaryScreen.Bounds;
                 this.Cursor = new Cursor(Cursor.Current.Handle);
                 Cursor.Position = new Point((int)(resolution.Width * args.x), (int)(resolution.Height * args.y));
+                magnifierForm.Location = new Point(Cursor.Position.X - magnifierForm.Size.Width / 2,
+                    Cursor.Position.Y - magnifierForm.Size.Height / 2);
             }
         }
 
@@ -69,8 +84,8 @@ namespace TobiiNoMouse
         {
             if(e == Keys.RControlKey)
             {
-                Console.WriteLine("rctrl pressed");
                 rctrlDown = true;
+                magnifierForm.Visible = true;
             }
             else if (rctrlDown)
             {
@@ -84,8 +99,8 @@ namespace TobiiNoMouse
         {
             if (e == Keys.RControlKey)
             {
-                Console.WriteLine("rctrl released");
                 rctrlDown = false;
+                //magnifierForm.Visible = false;
             }
             else if (rctrlDown)
             {
