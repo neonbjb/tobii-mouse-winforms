@@ -8,7 +8,7 @@ using System.Threading;
 
 namespace TobiiNoMouse
 {
-    class TobiiStreamer
+    public class TobiiStreamer
     {
         IntPtr tobiiApiPtr = IntPtr.Zero;
         IntPtr tobiiEnginePtr = IntPtr.Zero;

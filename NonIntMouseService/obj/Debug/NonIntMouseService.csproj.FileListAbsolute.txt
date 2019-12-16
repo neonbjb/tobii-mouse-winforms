@@ -1,0 +1,17 @@
+C:\projects\NonIntMouseService\bin\Debug\tobii_stream_engine.dll
+C:\projects\NonIntMouseService\bin\Debug\NonIntMouseService.exe.config
+C:\projects\NonIntMouseService\bin\Debug\NonIntMouseService.exe
+C:\projects\NonIntMouseService\bin\Debug\NonIntMouseService.pdb
+C:\projects\NonIntMouseService\obj\Debug\NonIntMouseService.exe
+C:\projects\NonIntMouseService\obj\Debug\NonIntMouseService.pdb
+C:\projects\tobii-mouse-winforms\NonIntMouseService\obj\Debug\NonIntMouseService.exe
+C:\projects\tobii-mouse-winforms\NonIntMouseService\obj\Debug\NonIntMouseService.pdb
+C:\projects\tobii-mouse-winforms\NonIntMouseService\bin\Debug\NonIntMouseService.exe.config
+C:\projects\tobii-mouse-winforms\NonIntMouseService\bin\Debug\NonIntMouseService.exe
+C:\projects\tobii-mouse-winforms\NonIntMouseService\bin\Debug\NonIntMouseService.pdb
+C:\projects\tobii-mouse-winforms\NonIntMouseService\bin\Debug\NonIntMouseLibrary.dll
+C:\projects\tobii-mouse-winforms\NonIntMouseService\bin\Debug\NonIntMouseLibrary.pdb
+C:\projects\tobii-mouse-winforms\NonIntMouseService\obj\Debug\NonIntMouseService.csprojAssemblyReference.cache
+C:\projects\tobii-mouse-winforms\NonIntMouseService\obj\Debug\NonIntMouseService.csproj.CopyComplete
+C:\projects\tobii-mouse-winforms\NonIntMouseService\bin\Debug\Karna.Magnification.dll
+C:\projects\tobii-mouse-winforms\NonIntMouseService\bin\Debug\Karna.Magnification.pdb

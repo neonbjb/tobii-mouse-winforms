@@ -1,0 +1,8 @@
+C:\projects\tobii-mouse-winforms\NonIntMouseLibrary\bin\Debug\NonIntMouseLibrary.dll
+C:\projects\tobii-mouse-winforms\NonIntMouseLibrary\bin\Debug\NonIntMouseLibrary.pdb
+C:\projects\tobii-mouse-winforms\NonIntMouseLibrary\obj\Debug\NonIntMouseLibrary.dll
+C:\projects\tobii-mouse-winforms\NonIntMouseLibrary\obj\Debug\NonIntMouseLibrary.pdb
+C:\projects\tobii-mouse-winforms\NonIntMouseLibrary\obj\Debug\NonIntMouseLibrary.csprojAssemblyReference.cache
+C:\projects\tobii-mouse-winforms\NonIntMouseLibrary\bin\Debug\Karna.Magnification.dll
+C:\projects\tobii-mouse-winforms\NonIntMouseLibrary\bin\Debug\Karna.Magnification.pdb
+C:\projects\tobii-mouse-winforms\NonIntMouseLibrary\obj\Debug\NonIntMouseLibrary.csproj.CopyComplete

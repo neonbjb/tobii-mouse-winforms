@@ -3,12 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobiiNoMouse", "TobiiNoMouse.csproj", "{DC60900C-F503-4465-B984-BEC46C3138C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobiiNoMouseFormed", "TobiiNoMouseFormed.csproj", "{DC60900C-F503-4465-B984-BEC46C3138C0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{23E96E6A-2CC7-4514-A8DB-E0605B4EFDE9} = {23E96E6A-2CC7-4514-A8DB-E0605B4EFDE9}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karna.Magnification", "karna-magnification\Karna.Magnification\Karna.Magnification.csproj", "{23E96E6A-2CC7-4514-A8DB-E0605B4EFDE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonIntMouseLibrary", "NonIntMouseLibrary\NonIntMouseLibrary.csproj", "{27B01588-D4AE-4417-918A-F4DF6BA046D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonIntMouseService", "NonIntMouseService\NonIntMouseService.csproj", "{8F384157-43C6-432F-AB43-AC5656A13544}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +28,14 @@ Global
 		{23E96E6A-2CC7-4514-A8DB-E0605B4EFDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23E96E6A-2CC7-4514-A8DB-E0605B4EFDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23E96E6A-2CC7-4514-A8DB-E0605B4EFDE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B01588-D4AE-4417-918A-F4DF6BA046D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B01588-D4AE-4417-918A-F4DF6BA046D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B01588-D4AE-4417-918A-F4DF6BA046D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B01588-D4AE-4417-918A-F4DF6BA046D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F384157-43C6-432F-AB43-AC5656A13544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F384157-43C6-432F-AB43-AC5656A13544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F384157-43C6-432F-AB43-AC5656A13544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F384157-43C6-432F-AB43-AC5656A13544}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
